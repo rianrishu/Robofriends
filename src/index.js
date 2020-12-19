@@ -4,12 +4,11 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import 'tachyons';
-import CardList from './CardList';
+// import CardList from './CardList';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <CardList/>
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App/>,
   document.getElementById('root')
 );
 
